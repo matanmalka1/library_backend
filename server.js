@@ -28,7 +28,7 @@ app.use("/books", bookRoutes);
 app.use("/authors", authorRoutes);
 app.use("/loans", loanRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 // server
 app.listen(PORT, async () => {
